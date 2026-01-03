@@ -1,0 +1,434 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .contener_a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contener_a a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .img_a img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+/* header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  } */
+.kidify{
+    display: flex;
+    align-items: center;
+    color: #9F86D9;
+}
+/* .contener_a{
+    gap: 20px;
+    display: flex;
+}
+.contener_a a{
+    text-decoration: none;
+    color: #1C1D1D;
+} */
+.winter{
+    background-image: url(./img/Hero_1\ \(1\).png);
+    height: 708px;
+    width: 890px;
+    margin-left: 87px;
+}
+.divin{
+    margin-left: 500px;
+    padding-top: 500px;;
+    
+}
+.store{
+    display: flex;  
+    margin-left: 79px;
+    align-items: center;
+    width: 938px;
+    gap: 17px;
+    margin-top: 50px ;
+}
+.store .img1{
+    width: 210px;
+}
+.store button{
+    width: 210px;
+    height: 25px;
+    background-color: #9F86D9;
+    border: 0px;
+    border-radius: 2px;
+}
+.store div{
+    width: 210px;
+    height: 360px;
+}
+.store p{
+    color: #9F86D9;
+}
+.overles{
+    display: flex;  
+    margin-left: 79px;
+    align-items: center;
+    width: 938px;
+    gap: 17px;
+    margin-top: 25px;
+    margin-top: 50px;
+}
+.overles .img1{
+    width: 210px;
+}
+.overles button{
+    width: 210px;
+    height: 25px;
+    background-color: #9F86D9;
+    border: 0px;
+    border-radius: 2px;
+}
+.overles div{
+    width: 210px;
+    height: 360px;
+}
+.overles p{
+    color: #9F86D9;
+}
+
+.speace{
+    display: flex;
+    align-items: center;
+    background-image: url(./mah_img/banner1\ 1.png);
+    height:350px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.speace h1{
+    font-size: 60px;
+    font-family:cursive;
+    color:#9F86D9;
+}
+.speace .img2{
+    height: 300px;
+}
+.speace .img3{
+    width: 200px;
+    margin-top: 180px;
+}
+.speace button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(201, 8, 17);
+    border: 0px;
+    border-radius: 7px;
+}
+.babuyfur{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65px;
+    margin-right: 85px;
+    margin-top: 20px;
+}
+.furnit{
+    width: 216px;
+    height: 370px;
+    background-color: rgb(238, 236, 236);
+}
+.furnit h2{
+    font-size: 18px;
+    margin-left: 53px;
+    line-height: 30px;
+}
+.babuyfur img{
+    width:210px;
+}
+.babuyfur div{
+    width: 210px;
+}
+.babuyfur p{
+    color: #9F86D9;
+}
+.babuyfur button{
+    width: 210px;
+    height: 25px;
+    background-color: #9F86D9;
+    border: 0px;
+    border-radius: 2px;
+}
+.vial img{
+    width: 900px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.grils{
+    background-image: url(mah_img/bg.png);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.grils .aprel{
+    display: flex;
+    align-items: center;
+    border: 10px solid rgb(255, 255, 255);
+    justify-content: space-around;
+    width: 460px;
+    height: 203px;
+    background-color: #FFF8EE;
+}
+.grils .aprell{
+    display: flex;
+    align-items: center;
+    border: 10px solid rgb(255, 255, 255);
+    width: 460px;
+    height: 203px;
+    background-color: #EAEEFF;
+}
+.aprel img{
+    width: 200px;
+}
+.aprell img{
+    width: 200px;
+}
+.grils button{
+    width: 98px;
+    height: 34px;
+    background-color: #9F86D9;
+    border: 0px;
+    color: white;
+    font-size: 10px;
+}
+.categore_van{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65px;
+    margin-right: 85px;
+    margin-top: 30px;
+}
+.categore_van img{
+    width:200px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.categore_van div{
+    width: 210px;
+    height: 300px;
+    border: 0.1px solid rgb(179, 179, 179);
+}
+.categore_van p{
+    color: #9F86D9;
+    margin-left: 5px;
+
+}
+.categore_van h2{
+    margin-left: 5px;
+}
+.toyus{
+    width: 877px;
+    text-align: center;
+    background-image: url(img_set/gg.png);
+    border: 5px solid rgb(168, 168, 240);
+}
+.toyus h1{
+    font-size: 32px;
+    color: #E35946;
+}
+.toyus p{
+    font-size: 14px;
+}
+.toyus button{
+    background-color: #9F86D9;
+    border: 0px;
+    height: 25px;
+    color: white;
+}
+.div{
+    padding: 35px;
+}
+.cute{
+    display: flex;
+    gap: 20px;
+}
+.cute h1{
+    font-size: 32px;
+    color: #E35946;
+}
+.cute p{
+    font-size: 14px;
+}
+.kidss button{
+    background-color: #E35946;
+    border: 0px;
+    height: 25px;
+    color: white;
+}
+.kidss{
+    height: 250px;
+    background-image: url(img_set/30122865_7654348\ 1.png);
+    border: 5px solid rgb(168, 168, 240);
+    text-align: center;
+}
+.best{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}
+.best h2{
+    font-size: 18px;
+}
+.best p{
+    line-height: 30px;
+    color: #a8a8a8;
+}
+.toddel{
+    display: flex;
+    align-items: center;
+}
+.toddel img{
+    width: 100px;
+}
+.toddel div{
+    margin-top: 40px;
+}
+.divim1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 182, 205);
+}
+.divim2{
+    display: flex;
+    background-color:aquamarine;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.divim1 img{
+    width: 200px;
+}
+.divim2 img{
+    width: 200px;
+}
+.divim1 p{
+    color: black;
+}
+.divim2 p{
+    color: black;
+}
+.jun{
+    display: flex;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+.jun h2{
+    font-size:18px;
+}
+.jun img{
+    width: 300px;
+}
+@media(max-width: 428px){
+
+    .contener_a {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 75%;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 20px;
+        gap: 20px;
+        transition: 0.3s;
+      }
+    
+      .contener_a.active {
+        left: 0;
+      }
+    
+      .menu-btn {
+        display: block;
+      }
+    
+      .img_a {
+        display: flex;
+        gap: 15px;
+      }
+      .bilma{
+        display: none;
+      }
+    .winter{
+        width: 370px;
+        height: 300px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .store{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .overles{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .speace{
+        display: none;
+    }
+    .babuyfur{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .jersey{
+        margin-top: 15px;
+    }
+    .vial{
+        display: none;
+    }
+    .grils{
+        display: none;
+    }
+    .categore_van{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .categore_van div{
+        margin-top: 20px;
+    }
+    .sleen{
+        display: none;
+    }
+    .best{
+        display: none;
+    }
+    .cute{
+        display: none;
+    }
+    .jun{
+        display: none;
+    }
+    .late{
+        display: none;
+    }
+}
