@@ -53,7 +53,7 @@ header {
 .winter{
     background-image: url(./img/Hero_1\ \(1\).png);
     height: 708px;
-    width: 890px;
+    width:1000px;
     margin-left: 87px;
 }
 .divin{
@@ -348,6 +348,18 @@ header {
 .jun img{
     width: 300px;
 }
+
+.imgin{
+    width: 1100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 241, 241);
+    margin-top: 30px;
+}
 @media(max-width: 428px){
 
     .contener_a {
@@ -429,6 +441,12 @@ header {
         display: none;
     }
     .late{
+        display: none;
+    }
+    .imgin{
+        display: none;
+    }
+    footer{
         display: none;
     }
 }
